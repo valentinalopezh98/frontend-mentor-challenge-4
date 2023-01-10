@@ -1,0 +1,23 @@
+@media (min-width: 576px){
+    main{
+        background-image: url(./images/pattern-background-desktop.svg);
+    }
+ 
+    .card-container{
+        max-width: 400px;
+        max-height: 620px;
+    }
+
+    .card-info{
+        padding: 35px;
+    }
+    
+    .button{
+        height: 45px;
+    }
+
+    .cancel{
+        font-size: 1.4rem;
+    }
+
+}
