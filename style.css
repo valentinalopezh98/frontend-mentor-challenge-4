@@ -9,9 +9,6 @@
     --active-states: #766cf1;
 }
 
-html{
-    font-size: 62.5%;
-}
 
 *{
     font-family: 'Red Hat Display', sans-serif;
@@ -28,24 +25,21 @@ body{
 
 main{
     width: 100%;
-    height: 100%;
     background-image: url(./images/pattern-background-mobile.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
 }
 
 p{
-    font-size: 1.6rem;
+    font-size: 1rem;
 }
 
 .card-container{
-    width: 90%;
-    height: 80%;
     max-width: 350px;
-    max-height: 600px;
+    max-height: 700px;
     background-color: white;
     border-radius: 20px;
     overflow: hidden;
@@ -68,14 +62,14 @@ p{
 }
 
 .card-info h1{
-    font-size: 2.4rem;
+    font-size: 1.5rem;
     font-weight: 900;
 }
 
 .card-info p{
     color: var(--neutral-desaturated-blue);
     text-align: center;
-    line-height: 2.7rem;
+    line-height: 1.6875rem;
     padding: 0 15px;
 }
 
@@ -108,7 +102,7 @@ p{
 }
 
 .plan-info a{
-    font-size: 1.4rem;
+    font-size: 0.875rem;
     color: var(--primary-bright-blue);
     font-weight: 900;
 }
@@ -125,7 +119,7 @@ p{
     background-color: var(--primary-bright-blue);
     color: white;
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 0.9375rem;
     box-shadow: 1px 27px 22px 0px rgba(56,41,224,0.1);
     -webkit-box-shadow: 1px 27px 22px 0px rgba(56,41,224,0.1);
     -moz-box-shadow: 1px 27px 22px 0px rgba(56,41,224,0.1);
@@ -136,7 +130,7 @@ p{
 }
 
 .cancel{
-    font-size: 1.6rem;
+    font-size: 1rem;
     color: var(--neutral-desaturated-blue);
     font-weight: 900;
     margin-top: 15px;
